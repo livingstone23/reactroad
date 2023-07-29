@@ -19,6 +19,8 @@ describe('Pruebas en 07-deses-arr', function () {
         // eslint-disable-next-line no-undef
         expect (typeof numbers).toBe('number');
 
+        expect( letters ).toEqual( expect.any(String));
+
     });
 
 

@@ -25,6 +25,8 @@ describe('Prueba en 08-imp-exp',  () => {
 
         // eslint-disable-next-line no-undef
         expect( hero ).toBe(undefined)
+
+        //Para manejar valore nulos, indefinidos o falsy
         // eslint-disable-next-line no-undef
         expect( hero ).toBeFalsy()
 

@@ -4,6 +4,7 @@ import {getHeroeByIdAsync} from "../../base-pruebas/09-promesas.js";
 // eslint-disable-next-line no-undef
 describe('Pruebas en 09-promesas', function () {
 
+    //done ayuda para gestionar las pruebas asincronas
     // eslint-disable-next-line no-undef
     test('getHeroByIdAsync debe de retornar un heroe', ( done) => {
 
@@ -39,3 +40,8 @@ describe('Pruebas en 09-promesas', function () {
             })
     });
 });
+
+
+
+
+
